@@ -41,7 +41,6 @@
   }
 
   .items{
-    font-family: "Roboto", sans-serif;
     width: 73%;
     margin-left: auto;
     padding: 12vh 0 0 0;
@@ -55,6 +54,7 @@
     font-size: 1.05em;
     font-weight: 700;
     letter-spacing: 0px;
+    font-family: "Roboto", sans-serif;
   }
 
   ul{
