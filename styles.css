@@ -14,7 +14,7 @@
 
   body{
     display: flex;
-    font-family: "Montserrat", sans-serif;
+    
   }
 
   /* sidenav */
@@ -82,6 +82,7 @@
   .banner{
     height: 90vh;
     border: 2px solid blue;
+    font-family: "Montserrat", sans-serif;
   }
   .header{
     display: flex;
