@@ -129,4 +129,29 @@
   .shopbutton{
     position: absolute;
     top: 375px;
+    margin-left: 50px;
+  }
+  .button{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 250;
+    color: white;
+    border: none;
+  }
+  .button:hover{
+    background-color: grey;
+  }
+  .footer{
+    color: white;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+  }
+  .link{
+    color: white;
+  }
+  p[class="link_text"]{
+    vertical-align: center;
   }
