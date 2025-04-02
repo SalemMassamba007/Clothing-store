@@ -80,7 +80,7 @@
     margin-right: 7%;
   }
   .banner{
-    height: 90vh;
+    height: 100vh;
     border: 2px solid blue;
     font-family: "Montserrat", sans-serif;
   }
@@ -104,4 +104,29 @@
   }
 .i_mage{
     height: auto;
+    margin-left: 20px;
+    width: 65vw;
+    height: 90vh;
+    
+  }
+  .text{
+    position: absolute;
+    top: 130px; 
+    margin-left: 50px;
+    color: white;
+    font-weight: 400;
+    font-size:90px;
+    
+  }
+  .collection{
+    position: absolute;
+    top: 270px;
+    margin-left: 50px;
+    color: white;
+    font-weight: 350;
+    font-size: 60px;
+  }
+  .shopbutton{
+    position: absolute;
+    top: 375px;
   }
