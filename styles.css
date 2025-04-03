@@ -152,6 +152,6 @@
   .link{
     color: white;
   }
-  p[class="link_text"]{
-    vertical-align: center;
+  .link_text{
+    padding-top: 40px;
   }
