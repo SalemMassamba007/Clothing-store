@@ -192,7 +192,7 @@ ul {
   
   .dropmenu{
     width: 90%;
-    margin: 3vh 0 2.7vh auto;
+    margin: 0 0 2.7vh auto;
     font-size: 0.85em;
     display: none;
     position: relative;
@@ -215,10 +215,6 @@ ul {
   .dropmenu li:first-child{
     background-color: #f1f1f1;
   }
-  
-  /* .dropmenu li:first-child a{
-    color: black;
-  } */
   
   .dropmenu li a{
     display: block;
