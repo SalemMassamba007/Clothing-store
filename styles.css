@@ -150,7 +150,6 @@
     margin-right: 7%;
   }
   .banner{
-    height: 100vh;
     border: 2px solid blue;
     font-family: "Montserrat", sans-serif;
   }
@@ -172,12 +171,13 @@
   #shopping{
     margin-right: 15px;
   }
-.i_mage{
-    height: auto;
+  
+  .i_mage{
+    /* height: auto; */
     margin-left: 20px;
-    width: 65vw;
-    height: 90vh;
-    
+    width: 97%;
+    height: 10%;
+    object-fit: contain;
   }
   .text{
     position: absolute;
