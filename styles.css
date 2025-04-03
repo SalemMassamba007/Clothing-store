@@ -80,6 +80,44 @@ ul {
   padding: 0.01em 16px;
 }
 
+.shaker:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+}
+
+/* .shaker2:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+}
+
+.shaker3:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+}
+
+.shaker4:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+}
+
+.shaker5:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+}
+
+.shaker6:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+} */
+
+@keyframes Shaking{
+  0%{transform: translate(2px, 2px) rotate(0deg);}
+  25%{transform: translate(4px, 4px) rotate(3deg);}
+  50%{transform: translate(2px, 4px) rotate(0deg);}
+  75%{transform: translate(4px, 4px) rotate(3deg);}
+  100%{ transform: translate(4px, 4px) rotate(3deg);}
+}
+
 .img__container p b {
   font-size: 15px;
   font-weight: bolder;
@@ -378,7 +416,7 @@ ul {
   
   #shopping{
     margin-right: 20px;
-    
+
   }
   
   .i_mage{
