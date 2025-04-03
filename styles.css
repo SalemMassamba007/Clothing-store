@@ -17,14 +17,6 @@ body {
   max-width: 1200px;
 }
 
-/* sidenav */
-.sidenav {
-  width: 250px;
-  display: block;
-  height: 100%;
-  position: fixed;
-}
-
 .logo {
   width: 80%;
   padding: 3.5vh 0;
@@ -133,3 +125,215 @@ ul {
 .red__text {
   color: #f44336;
 }
+
+  /* sidenav */
+  .sidenav{
+    width: 250px;
+    height: 100%;
+    display: block;
+    position: fixed;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  
+  
+  .logo{
+    width: 70%;
+    padding: 3.6vh 0;
+    margin: 0 0 0 29%;
+  }
+
+  .logo h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.55em;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+
+  .items{
+    width: 70%;
+    padding: 10.5vh 0 0 0;
+    margin: 0 0 0 29%;
+  }
+
+  .items a{
+    display: block;
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .items li{
+    padding: 1.5vh 0;
+  }
+  
+  .blackjeans a{
+    color: black;
+  }
+  
+  .blackjeans i{
+    font-size: 0.9em;
+  }
+  
+  .blackjeans:hover .dropmenu{
+    display: block;
+  }
+  
+  .dropmenu{
+    width: 100%;
+    margin: 3vh 11% 2.7vh auto;
+    font-size: 0.85em;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+  }
+
+  .dropmenu i{
+    font-size: 0.9em;
+  }
+
+  .dropmenu li{
+    padding: 1.3vh;
+  }
+  
+  .dropmenu li:first-child{
+    background-color: #f1f1f1;
+  }
+  
+  /* .dropmenu li:first-child a{
+    color: black;
+  } */
+  
+  .dropmenu li a{
+    display: block;
+    height: auto;
+    margin: 0 0 0 1.5vh;
+  }
+  
+  .fa-caret-right{
+    display: inline-block;
+    margin: 0 8% 0 0;
+    
+  }
+
+  .jeans{
+    color: rgba(0,0,0,0.6);
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  .links{
+    width: 70%;
+    margin-left: 29%;
+    padding: 6vh 0 0 0;
+  }
+  
+  .links a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 0.95em;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    padding: 1vh;
+  }
+
+  .sidenav li:hover{
+    background-color: #e1e1e1;
+    
+  }
+
+  /* .sidenav li:hover a{
+    color: black;
+  } */
+
+  /* main */
+  .main{
+    width: 70%;
+    margin-left: 25.3%;
+    margin-right: 7%;
+  }
+  .banner{
+    height: 100vh;
+    border: 2px solid blue;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header{
+    display: flex;
+  }
+  .heading{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+  }
+  .icons{
+    font-size: 27px;
+    margin-left: 120vh;
+    margin-top: 13px;
+  } 
+  
+  #shopping{
+    margin-right: 15px;
+  }
+.i_mage{
+    height: auto;
+    margin-left: 20px;
+    width: 65vw;
+    height: 90vh;
+    
+  }
+  .text{
+    position: absolute;
+    top: 130px; 
+    margin-left: 50px;
+    color: white;
+    font-weight: 400;
+    font-size:90px;
+    
+  }
+  .collection{
+    position: absolute;
+    top: 270px;
+    margin-left: 50px;
+    color: white;
+    font-weight: 350;
+    font-size: 60px;
+  }
+  .shopbutton{
+    position: absolute;
+    top: 375px;
+    margin-left: 50px;
+  }
+  .button{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 250;
+    color: white;
+    border: none;
+  }
+  .button:hover{
+    background-color: grey;
+  }
+  .footer{
+    color: white;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+  }
+  .link{
+    color: white;
+  }
+  p[class="link_text"]{
+    vertical-align: center;
+  }
