@@ -13,10 +13,10 @@ html {
 
 body {
   display: flex;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: 1200px;
 }
-
+/*
 .logo {
   width: 80%;
   padding: 3.5vh 0;
@@ -26,7 +26,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
   font-weight: 500;
-  text-align: center;
   letter-spacing: 3px;
 }
 
@@ -65,7 +64,8 @@ ul {
   font-size: 0.8em;
   letter-spacing: 0;
   font-weight: 500;
-}
+} */
+/* main */
 
 .catalogue__container {
   filter: grayscale(75%);
@@ -124,7 +124,7 @@ ul {
 
   /* sidenav */
   .sidenav{
-    width: 250px;
+    width: 25.3%;
     height: 100%;
     display: block;
     position: fixed;
@@ -137,7 +137,7 @@ ul {
   .logo{
     width: 70%;
     padding: 3.6vh 0;
-    margin: 0 0 0 29%;
+    margin: 0 0 0 25%;
   }
 
   .logo h2{
@@ -150,7 +150,7 @@ ul {
   .items{
     width: 70%;
     padding: 10.5vh 0 0 0;
-    margin: 0 0 0 29%;
+    margin: 0 0 0 25%;
   }
 
   .items a{
@@ -161,11 +161,7 @@ ul {
     font-weight: 700;
     letter-spacing: 0px;
     font-family: "Roboto", sans-serif;
-  }
-
-  .items li{
-    height: 7vh;
-    /* padding: 1.5vh 0; */
+    padding: 3.5%;
   }
 
   span{
@@ -187,14 +183,14 @@ ul {
   }
   
   .dropmenu{
-    width: 90%;
+    width: 100%;
     margin: 0 0 2.7vh auto;
     font-size: 0.85em;
     display: none;
     position: relative;
     z-index: 1;
     background-color: #fff;
-    
+    font-family: "Roboto", sans-serif;
   }
 
   
@@ -211,10 +207,6 @@ ul {
   .dropmenu li:first-child{
     background-color: #f1f1f1;
   }
-  
-  /* .dropmenu li:first-child a{
-    color: black;
-  } */
   
   .dropmenu li a{
     display: block;
@@ -239,9 +231,9 @@ ul {
   }
   
   .links{
-    width: 70%;
-    margin-left: 29%;
-    padding: 6vh 0 0 0;
+    width: 65%;
+    margin: 19% 0 0  25%;
+    
   }
   
   .links a{
@@ -252,7 +244,7 @@ ul {
     letter-spacing: 0;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
-    padding: 1vh;
+    padding: 3.5%;
   }
 
   .sidenav li:hover{
@@ -267,7 +259,84 @@ ul {
   /* main */
   .main{
     width: 100%;
-    margin-left: 250px;
+    margin-left: 27%;
+    /* margin-right: 7%; */
+  }
+  .banner{
+    height: 100vh;
+    border: 2px solid blue;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header{
+    display: flex;
+  }
+  .heading{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+  }
+  .icons{
+    font-size: 27px;
+    margin-left: 120vh;
+    margin-top: 13px;
+  } 
+  
+  #shopping{
+    margin-right: 15px;
+  }
+.i_mage{
+    height: auto;
+    margin-left: 20px;
+    width: 65vw;
+    height: 90vh;
+    
+  }
+  .text{
+    position: absolute;
+    top: 130px; 
+    margin-left: 50px;
+    color: white;
+    font-weight: 400;
+    font-size:90px;
+    
+  }
+  .collection{
+    position: absolute;
+    top: 270px;
+    margin-left: 50px;
+    color: white;
+    font-weight: 350;
+    font-size: 60px;
+  }
+  .shopbutton{
+    position: absolute;
+    top: 375px;
+    margin-left: 50px;
+  }
+  .button{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 250;
+    color: white;
+    border: none;
+  }
+  .button:hover{
+    background-color: grey;
+  }
+  .footer{
+    color: white;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+  }
+  .link{
+    color: white;
+  }
+  p[class="link_text"]{
+    vertical-align: center;
   }
 
   /* Contact */
@@ -276,14 +345,13 @@ ul {
     display: flex;
     width: 100%;
     background-color: #f1f1f1;
-    padding: 1.9cm 0 1.75cm;
+    padding: 1.9cm 0 1cm;
     font-family: "Montserrat";
   }
 
   .contact, .about, .store{
-    border: 1px solid black;
     padding: 3vh 0;
-    width: 31%;
+    width: 30%;
   }
 
   .contact{
@@ -291,7 +359,7 @@ ul {
   }
 
   .info_head{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.3em;
     text-align: center;
   }
@@ -308,7 +376,7 @@ ul {
     width: 100%;
     padding: 2.5%;
     margin: 3.5% 0;
-    border: 1px solid rgba(128, 128, 128, 0.87);
+    border: 1px solid rgba(182, 182, 182, 0.87);
   }
 
   .contact input::placeholder{
@@ -333,18 +401,48 @@ ul {
 
   .about{
     width: 20%;
+    margin: 0px 5% 0px 7%;
   }
 
   .about_sect{
     display: block;
     color: #000;
     text-align: center;
-    font-size: 0.8em;
-    margin: 5% 0;
+    font-size: 0.7em;
+    font-weight: 300;
+    margin: 8% 0;
   }
 
   .store{
     width: 20%;
+    margin-left: 5%;
+  }
+
+  .info_head1{
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin:0 0 2vh;
+  }
+
+  .fa-map-marker, .fa-phone, .fa-envelope, .fa-cc-amex, .fa-credit-card{
+    margin:0 3% 0 0;
+
+  }
+
+  .contacting{
+    text-align: left;
+    font-size: 0.7em;
+  }
+
+  .cons i{
+    font-size: 1.05em;
+  }
+
+  .cons i:hover{
+    color: rgba(0,0,0,0.6);
+    animation-name: spin;
+    animation-duration: 0.5s;
   }
   /* animations */
   @keyframes drop {
