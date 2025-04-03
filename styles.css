@@ -149,3 +149,79 @@
     margin-left: 25.3%;
     margin-right: 7%;
   }
+  .banner{
+    height: 100vh;
+    border: 2px solid blue;
+    font-family: "Montserrat", sans-serif;
+  }
+  .header{
+    display: flex;
+  }
+  .heading{
+    margin-left: 20px;
+    margin-top: 13px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+  }
+  .icons{
+    font-size: 27px;
+    margin-left: 120vh;
+    margin-top: 13px;
+  } 
+  
+  #shopping{
+    margin-right: 15px;
+  }
+.i_mage{
+    height: auto;
+    margin-left: 20px;
+    width: 65vw;
+    height: 90vh;
+    
+  }
+  .text{
+    position: absolute;
+    top: 130px; 
+    margin-left: 50px;
+    color: white;
+    font-weight: 400;
+    font-size:90px;
+    
+  }
+  .collection{
+    position: absolute;
+    top: 270px;
+    margin-left: 50px;
+    color: white;
+    font-weight: 350;
+    font-size: 60px;
+  }
+  .shopbutton{
+    position: absolute;
+    top: 375px;
+    margin-left: 50px;
+  }
+  .button{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 250;
+    color: white;
+    border: none;
+  }
+  .button:hover{
+    background-color: grey;
+  }
+  .footer{
+    color: white;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+  }
+  .link{
+    color: white;
+  }
+  p[class="link_text"]{
+    vertical-align: center;
+  }
