@@ -15,13 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> -->
   </head>
   <body>
     <!-- side nav -->
@@ -35,16 +35,24 @@
             <a href="" class="blackjeans"
               >Jeans <i class="fa-solid fa-caret-down"></i
             ></a>
+              > Jeans <i class="fa fa-caret-down" aria-hidden="true"></i></a>
             <div class="dropmenu">
               <ul>
                 <li>
                   <a href="" class="skinnies jeans"
-                    ><i class="fa-solid fa-caret-right"></i>Skinny</a
+                    ><i class="fa fa-caret-right" aria-hidden="true"></i>Skinny</a
                   >
                 </li>
-                <li><a href="" class="jeans">Relaxed</a></li>
-                <li><a href="" class="jeans">Bootcut</a></li>
-                <li><a href="" class="jeans">Straight</a></li>
+                <li>
+                  <a href="" class="jeans"><span>Relaxed</span></a>
+                </li>
+                <li>
+                  <a href="" class="jeans"><span>Bootcut</span></a>
+                </li>
+                <li>
+                  <a href="" class="jeans"><span>Straight</span></a>
+
+                </li>
               </ul>
             </div>
           </li>
@@ -169,10 +177,48 @@
       </div>
 
       <!-- contact -->
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="contact_info">
+        <div class="contact">
+          <h2 class="info_head">Contact</h2>
+          <h6>Questions? Go ahead.</h6>
+          <div class="form">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Subject" />
+            <input type="text" placeholder="Message" />
+            <button>Send</button>
+          </div>
+        </div>
+        <div class="about">
+          <h2 class="info_head">About</h2>
+          <a href="" class="about_sect">About us</a>
+          <a href="" class="about_sect">We're hiring</a>
+          <a href="" class="about_sect">Support</a>
+          <a href="" class="about_sect">Find store</a>
+          <a href="" class="about_sect">Shipment</a>
+          <a href="" class="about_sect">Payment</a>
+          <a href="" class="about_sect">Gift card</a>
+          <a href="" class="about_sect">Return</a>
+          <a href="" class="about_sect">Help</a>
+        </div>
+        <div class="store">
+          <div><h2 class="info_head1">Store</h2></div>
+          <p class="about_sect contacting">
+            <i class="fa fa-map-marker" aria-hidden="true"></i> Company Name
+          </p>
+          <p class="about_sect contacting">
+            <i class="fa fa-phone" aria-hidden="true"></i> 0044123123
+          </p>
+          <p class="about_sect contacting">
+            <i class="fa fa-envelope" aria-hidden="true"></i> ex@mail.com
+          </p>
+          <h2 class="info_head1">We Accept</h2>
+          <p class="about_sect contacting"><i class="fa fa-cc-amex" aria-hidden="true"></i>Amex</p>
+          <p class="about_sect contacting"><i class="fa fa-credit-card" aria-hidden="true"></i>Credit Card</p>
+          <div class="cons">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-snapchat" aria-hidden="true"></i> <i class="fa fa-pinterest-p" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-linkedin" aria-hidden="true"></i> 
+          </div>
+        </div>
       </div>
       <!-- footer -->
       <div class="footer">
