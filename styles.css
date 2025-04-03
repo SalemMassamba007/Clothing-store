@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body,
@@ -12,9 +12,8 @@ html {
 }
 
 body {
-  display: flex;
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -66,13 +65,20 @@ ul {
   letter-spacing: 0;
   font-weight: 500;
 }
-/* main */
-.main {
-  margin-left: 250px;
-}
 
 .catalogue__container {
+  display: flow-root;
   filter: grayscale(75%);
+}
+
+.catalogue__heading {
+  color: #757575;
+  padding: 0.01em 16px;
+}
+
+.catalogue__heading p {
+  margin: 15px 0;
+  font-size: 15px;
 }
 
 .catalogue__col {
@@ -126,214 +132,249 @@ ul {
   color: #f44336;
 }
 
-  /* sidenav */
-  .sidenav{
-    width: 250px;
-    height: 100%;
-    display: block;
-    position: fixed;
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
+.red {
+  background-color: #f44336;
+  color: #fff;
+}
 
-  
-  
-  .logo{
-    width: 70%;
-    padding: 3.6vh 0;
-    margin: 0 0 0 29%;
-  }
+.subscribe__container {
+  background-color: black;
+  color: #fff;
+  padding: 32px 16px;
+}
 
-  .logo h2{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.55em;
-    font-weight: 500;
-    letter-spacing: 3px;
-  }
+.subscribe__container h1 {
+  font-size: 32px;
+  margin: 10px 0;
+  font-weight: 400;
+}
 
-  .items{
-    width: 70%;
-    padding: 10.5vh 0 0 0;
-    margin: 0 0 0 29%;
-  }
+.subscribe__container p {
+  font-size: 15px;
+  margin: 15px 0;
+}
 
-  .items a{
-    display: block;
-    text-decoration: none;
-    color: rgba(0,0,0,0.6);
-    font-size: 1.1em;
-    font-weight: 700;
-    letter-spacing: 0px;
-    font-family: "Roboto", sans-serif;
-  }
+.subscribe__container .email__input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
 
-  .items li{
-    padding: 1.5vh 0;
-  }
-  
-  .blackjeans a{
-    color: black;
-  }
-  
-  .blackjeans i{
-    font-size: 0.9em;
-  }
-  
-  .blackjeans:hover .dropmenu{
-    display: block;
-  }
-  
-  .dropmenu{
-    width: 100%;
-    margin: 3vh 11% 2.7vh auto;
-    font-size: 0.85em;
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: #fff;
-  }
+.subscribe__container .subscribe__button {
+  font-size: 16px;
+  margin: 0 0 16px;
+  padding: 8px 16px;
+  display: inline-block;
+  border: none;
+}
 
-  .dropmenu i{
-    font-size: 0.9em;
-  }
+/* sidenav */
+.sidenav {
+  width: 250px;
+  height: 100%;
+  display: block;
+  position: fixed;
+}
 
-  .dropmenu li{
-    padding: 1.3vh;
-  }
-  
-  .dropmenu li:first-child{
-    background-color: #f1f1f1;
-  }
-  
-  /* .dropmenu li:first-child a{
-    color: black;
-  } */
-  
-  .dropmenu li a{
-    display: block;
-    height: auto;
-    margin: 0 0 0 1.5vh;
-  }
-  
-  .fa-caret-right{
-    display: inline-block;
-    margin: 0 8% 0 0;
-    
-  }
+.logo {
+  width: 70%;
+  padding: 3.6vh 0;
+  margin: 0 0 0 29%;
+}
 
-  .jeans{
-    color: rgba(0,0,0,0.6);
-  }
-  
-  ul{
-    list-style-type: none;
-  }
-  
-  .links{
-    width: 70%;
-    margin-left: 29%;
-    padding: 6vh 0 0 0;
-  }
-  
-  .links a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    font-size: 0.95em;
-    letter-spacing: 0;
-    font-weight: 400;
-    font-family: "Roboto", sans-serif;
-    padding: 1vh;
-  }
+.logo h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.55em;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
 
-  .sidenav li:hover{
-    background-color: #e1e1e1;
-    
-  }
+.items {
+  width: 70%;
+  padding: 10.5vh 0 0 0;
+  margin: 0 0 0 29%;
+}
 
-  /* .sidenav li:hover a{
+.items a {
+  display: block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.items li {
+  padding: 1.5vh 0;
+}
+
+.blackjeans a {
+  color: black;
+}
+
+.blackjeans i {
+  font-size: 0.9em;
+}
+
+.blackjeans:hover .dropmenu {
+  display: block;
+}
+
+.dropmenu {
+  width: 100%;
+  margin: 3vh 11% 2.7vh auto;
+  font-size: 0.85em;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.dropmenu i {
+  font-size: 0.9em;
+}
+
+.dropmenu li {
+  padding: 1.3vh;
+}
+
+.dropmenu li:first-child {
+  background-color: #f1f1f1;
+}
+
+/* .dropmenu li:first-child a{
     color: black;
   } */
 
-  /* main */
-  .main{
-    width: 70%;
-    margin-left: 25.3%;
-    margin-right: 7%;
-  }
-  .banner{
-    height: 100vh;
-    border: 2px solid blue;
-    font-family: "Montserrat", sans-serif;
-  }
-  .header{
-    display: flex;
-  }
-  .heading{
-    margin-left: 20px;
-    margin-top: 13px;
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-  }
-  .icons{
-    font-size: 27px;
-    margin-left: 120vh;
-    margin-top: 13px;
-  } 
-  
-  #shopping{
-    margin-right: 15px;
-  }
-.i_mage{
-    height: auto;
-    margin-left: 20px;
-    width: 65vw;
-    height: 90vh;
-    
-  }
-  .text{
-    position: absolute;
-    top: 130px; 
-    margin-left: 50px;
-    color: white;
-    font-weight: 400;
-    font-size:90px;
-    
-  }
-  .collection{
-    position: absolute;
-    top: 270px;
-    margin-left: 50px;
-    color: white;
-    font-weight: 350;
-    font-size: 60px;
-  }
-  .shopbutton{
-    position: absolute;
-    top: 375px;
-    margin-left: 50px;
-  }
-  .button{
-    width: 200px;
-    height: 60px;
-    background-color: black;
-    font-size: 25px;
-    font-weight: 250;
-    color: white;
-    border: none;
-  }
-  .button:hover{
-    background-color: grey;
-  }
-  .footer{
-    color: white;
-    background-color: black;
-    height: 100px;
-    text-align: center;
-  }
-  .link{
-    color: white;
-  }
-  p[class="link_text"]{
-    vertical-align: center;
-  }
+.dropmenu li a {
+  display: block;
+  height: auto;
+  margin: 0 0 0 1.5vh;
+}
+
+.fa-caret-right {
+  display: inline-block;
+  margin: 0 8% 0 0;
+}
+
+.jeans {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.links {
+  width: 70%;
+  margin-left: 29%;
+  padding: 6vh 0 0 0;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 0.95em;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 1vh;
+}
+
+.sidenav li:hover {
+  background-color: #e1e1e1;
+}
+
+/* .sidenav li:hover a{
+    color: black;
+  } */
+
+/* main */
+.main {
+  margin-left: 250px;
+}
+.banner {
+  padding: 0.01em 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header{
+  display: flow-root;
+}
+
+.heading {
+  margin: 24px 0;
+  font-size: 24px;
+  float: left;
+  display: inline;
+}
+
+.icons {
+  display: inline;
+  float: right;
+  margin: 24px 0;
+}
+
+.fa-shopping-cart {
+  margin-right: 15px;
+}
+
+.image {
+  display: inline-block;
+}
+
+.i_mage {
+  height: auto;
+  width: 100%;
+}
+.text {
+  position: absolute;
+  top: 130px;
+  margin-left: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 90px;
+}
+.collection {
+  position: absolute;
+  top: 270px;
+  margin-left: 50px;
+  color: white;
+  font-weight: 350;
+  font-size: 60px;
+}
+.shopbutton {
+  position: absolute;
+  top: 375px;
+  margin-left: 50px;
+}
+.button {
+  width: 200px;
+  height: 60px;
+  background-color: black;
+  font-size: 25px;
+  font-weight: 250;
+  color: white;
+  border: none;
+}
+.button:hover {
+  background-color: grey;
+}
+.footer {
+  color: white;
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  padding: 0.01em 16px;
+}
+.link {
+  color: white;
+}
+.footer p {
+  vertical-align: center;
+}
