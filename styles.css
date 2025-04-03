@@ -66,10 +66,6 @@ ul {
   letter-spacing: 0;
   font-weight: 500;
 }
-/* main */
-.main {
-  margin-left: 250px;
-}
 
 .catalogue__container {
   filter: grayscale(75%);
@@ -168,7 +164,12 @@ ul {
   }
 
   .items li{
-    padding: 1.5vh 0;
+    height: 7vh;
+    /* padding: 1.5vh 0; */
+  }
+
+  span{
+    color: rgba(0,0,0,0.6);
   }
   
   .blackjeans a{
@@ -181,20 +182,26 @@ ul {
   
   .blackjeans:hover .dropmenu{
     display: block;
+    animation-name: drop;
+    animation-duration: 0.5s;
   }
   
   .dropmenu{
-    width: 100%;
-    margin: 3vh 11% 2.7vh auto;
+    width: 90%;
+    margin: 0 0 2.7vh auto;
     font-size: 0.85em;
     display: none;
-    position: absolute;
+    position: relative;
     z-index: 1;
     background-color: #fff;
+    
   }
 
+  
   .dropmenu i{
     font-size: 0.9em;
+    animation-name: spin;
+    animation-duration: 0.6s;
   }
 
   .dropmenu li{
@@ -223,6 +230,8 @@ ul {
 
   .jeans{
     color: rgba(0,0,0,0.6);
+    position: relative;
+    left: 1vw;
   }
   
   ul{
@@ -257,10 +266,97 @@ ul {
 
   /* main */
   .main{
-    width: 70%;
-    margin-left: 25.3%;
-    margin-right: 7%;
+    width: 100%;
+    margin-left: 250px;
   }
+
+  /* Contact */
+
+  .contact_info{
+    display: flex;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 1.9cm 0 1.75cm;
+    font-family: "Montserrat";
+  }
+
+  .contact, .about, .store{
+    border: 1px solid black;
+    padding: 3vh 0;
+    width: 31%;
+  }
+
+  .contact{
+    margin: 0 2%;
+  }
+
+  .info_head{
+    font-weight: 400;
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  .contact h6{
+    font-weight: 400;
+    font-size: 0.7em;
+    letter-spacing: 0.03vw;
+    text-align: center;
+  }
+
+  .contact input{
+    display: block;
+    width: 100%;
+    padding: 2.5%;
+    margin: 3.5% 0;
+    border: 1px solid rgba(128, 128, 128, 0.87);
+  }
+
+  .contact input::placeholder{
+    font-family: "Montserrat";
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+
+  .contact button{
+    width: 100%;
+    padding: 3%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-family: "Montserrat";
+  }
+
+  .contact button:hover{
+    background-color: #c9c9c9;
+    color: #000;
+  }
+
+  .about{
+    width: 20%;
+  }
+
+  .about_sect{
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 5% 0;
+  }
+
+  .store{
+    width: 20%;
+  }
+  /* animations */
+  @keyframes drop {
+    0% {opacity: 0.2;}
+    100% {opacity: 1;}
+  }
+
+  @keyframes spin {
+    0% {transform: rotateZ(-360deg);}
+    100%{transform: rotateZ(0deg);}
+  }
+
   .banner{
     height: 100vh;
     border: 2px solid blue;
