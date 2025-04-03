@@ -366,7 +366,7 @@ ul {
   }
   .heading{
     margin-left: 20px;
-    margin-top: 13px;
+    margin-top: 20px;
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
   }
@@ -377,11 +377,11 @@ ul {
   } 
   
   #shopping{
-    margin-right: 15px;
+    margin-right: 20px;
+    
   }
   
   .i_mage{
-    /* height: auto; */
     margin-left: 20px;
     width: 97%;
     height: 10%;
