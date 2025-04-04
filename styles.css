@@ -226,7 +226,7 @@ ul {
 .logo {
   width: 70%;
   padding: 3.6vh 0;
-  margin: 0 0 0 29%;
+  /* margin: 0 0 0 29%; */
 }
 
 .logo h2 {
@@ -239,7 +239,7 @@ ul {
 .items {
   width: 70%;
   padding: 10.5vh 0 0 0;
-  margin: 0 0 0 29%;
+  /* margin: 0 0 0 29%; */
 }
 
 .items a {
@@ -253,7 +253,7 @@ ul {
 }
 
 .items li {
-  padding: 1.5vh 0;
+  padding: 0.5% 0;
 }
 
 .blackjeans a {
@@ -294,6 +294,7 @@ ul {
   display: block;
   height: auto;
   margin: 0 0 0 1.5vh;
+  font-weight: 600;
 }
 
 .fa-caret-right {
@@ -311,7 +312,7 @@ ul {
 
 .links {
   width: 70%;
-  margin-left: 29%;
+  /* margin-left: 29%; */
   padding: 6vh 0 0 0;
 }
 
@@ -334,10 +335,6 @@ ul {
 
 .main {
   margin-left: 250px;
-}
-.banner {
-  padding: 0.01em 16px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .header{
@@ -538,13 +535,11 @@ ul {
   } */
 
   /* main */
-  .main{
-    width: 100%;
-    margin-left: 27%;
-  }
+  
   .banner{
     height: 100vh;
     font-family: "Montserrat", sans-serif;
+    padding: 0.01em 16px;
   }
 
   .text{
@@ -711,10 +706,7 @@ ul {
     0% {transform: rotateZ(-360deg);}
     100%{transform: rotateZ(0deg);}
   }
-  .banner{
-    border: 2px solid blue;
-    font-family: "Montserrat", sans-serif;
-  }
+  
  
   .text{
     position: absolute;
