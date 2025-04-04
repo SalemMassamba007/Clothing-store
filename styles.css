@@ -68,6 +68,7 @@ ul {
 .catalogue__container {
   display: flow-root;
   filter: grayscale(75%);
+  display: flow-root;
 }
 
 .catalogue__heading {
@@ -459,7 +460,7 @@ ul {
   .blackjeans:hover .dropmenu{
     display: block;
     animation-name: drop;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
   }
   
   .dropmenu{
@@ -543,7 +544,6 @@ ul {
   }
   .banner{
     height: 100vh;
-    border: 2px solid blue;
     font-family: "Montserrat", sans-serif;
   }
 
@@ -701,8 +701,10 @@ ul {
   }
   /* animations */
   @keyframes drop {
-    0% {opacity: 0.2;}
-    100% {opacity: 1;}
+    0% {opacity: 0.2; height: 0%;}
+        
+    100% {opacity: 1; height: 100%;}
+          
   }
 
   @keyframes spin {
