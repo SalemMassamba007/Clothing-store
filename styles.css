@@ -83,32 +83,38 @@ ul {
 .shaker:hover{
   animation-name: Shaking;
   animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
-/* .shaker2:hover{
+.shaker2:hover{
   animation-name: Shaking;
   animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .shaker3:hover{
   animation-name: Shaking;
   animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .shaker4:hover{
   animation-name: Shaking;
   animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .shaker5:hover{
   animation-name: Shaking;
   animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .shaker6:hover{
   animation-name: Shaking;
   animation-duration: 1s;
-} */
+  animation-iteration-count: infinite;
+}
 
 @keyframes Shaking{
   0%{transform: translate(2px, 2px) rotate(0deg);}
