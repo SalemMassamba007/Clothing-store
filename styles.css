@@ -89,6 +89,50 @@ ul {
   padding: 0.01em 16px;
 }
 
+.shaker:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.shaker2:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.shaker3:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.shaker4:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.shaker5:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.shaker6:hover{
+  animation-name: Shaking;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Shaking{
+  0%{transform: translate(2px, 2px) rotate(0deg);}
+  25%{transform: translate(4px, 4px) rotate(3deg);}
+  50%{transform: translate(2px, 4px) rotate(0deg);}
+  75%{transform: translate(4px, 4px) rotate(3deg);}
+  100%{ transform: translate(4px, 4px) rotate(3deg);}
+}
+
 .img__container p b {
   font-size: 15px;
   font-weight: bolder;
@@ -667,15 +711,10 @@ ul {
     100%{transform: rotateZ(0deg);}
   }
   .banner{
-    height: 100vh;
     border: 2px solid blue;
     font-family: "Montserrat", sans-serif;
   }
-  .heading{
-    font-weight: 400;
-    font-family: "Montserrat", sans-serif;
-  }
-
+ 
   .text{
     position: absolute;
     top: 130px; 
@@ -719,6 +758,7 @@ ul {
   .link{
     color: white;
   }
-  p[class="link_text"]{
-    vertical-align: center;
+
+  .link_text{
+    padding-top: 40px;
   }
